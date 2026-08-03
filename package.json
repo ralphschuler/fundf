@@ -1,0 +1,14 @@
+{
+  "name": "fundf-static-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.mjs",
+    "validate": "node scripts/validate-site.mjs"
+  },
+  "devDependencies": {
+    "html-validate": "11.6.1",
+    "vite": "8.2.0"
+  }
+}

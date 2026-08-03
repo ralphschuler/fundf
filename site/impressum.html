@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de" class="no-js preview-locked">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Impressum und Anbieterangaben von Fliese &amp; Fuge.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#b42318">
+    <title>Impressum | Fliese &amp; Fuge</title>
+    <script src="./assets/js/auth.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script>document.documentElement.classList.replace("no-js", "js");</script>
+    <script type="module" src="./assets/js/app.js"></script>
+  </head>
+  <body data-page="impressum">
+    <a class="skip-link" href="#main-content">Zum Inhalt springen</a>
+    <div class="draft-banner" data-draft-banner>Entwurf mit Beispieldaten – Firmendaten und Rechtstexte vor Veröffentlichung ersetzen.</div>
+
+    <div class="utility-bar">
+      <div class="shell utility-bar__inner">
+        <p>Für Sie im Einsatz: <strong data-bind="business.serviceArea">Musterstadt und Umgebung</strong></p>
+        <div class="utility-bar__links" role="group" aria-label="Direkter Kontakt">
+          <a href="./#kontakt" data-phone-link aria-disabled="true">01234 567890</a>
+          <a href="./#kontakt" data-email-link aria-disabled="true">kontakt@fliese-und-fuge.example</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="shell site-header__inner">
+        <a class="brand" href="./" aria-label="Fliese und Fuge – Startseite">
+          <span class="brand__mark" aria-hidden="true" data-bind="business.shortName">F&amp;F</span>
+          <span class="brand__text"><span class="brand__name" data-bind="business.name">Fliese &amp; Fuge</span><span class="brand__tagline">Fliesen · Fugen · Reparatur</span></span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-nav-toggle>Menü</button>
+        <nav class="site-nav" id="site-navigation" aria-label="Hauptnavigation" data-navigation>
+          <a href="./#leistungen">Leistungen</a><a href="./#ablauf">Ablauf</a><a href="./#ueber-uns">Über uns</a><a href="./#faq">FAQ</a><a href="./#kontakt">Kontakt</a><a class="button" href="./#kontakt">Projekt anfragen</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <header class="legal-hero">
+        <div class="shell"><p class="eyebrow">Rechtliches</p><h1>Impressum</h1><p>Anbieterangaben und Kontaktinformationen. Die gelb markierten Felder sind Platzhalter und müssen vor dem öffentlichen Einsatz ersetzt werden.</p></div>
+      </header>
+
+      <div class="section">
+        <div class="shell legal-layout">
+          <aside class="legal-sidebar" aria-label="Hinweis zum Dokument">
+            <p><strong>Stand:</strong> <span data-bind="legal.updatedAt">03.08.2026</span><br><br>Diese Seite ist eine technische Vorlage und keine Rechtsberatung.</p>
+          </aside>
+
+          <div class="legal-content">
+            <p class="legal-notice" data-bind="legal.placeholderNotice">Musterinhalt – vor dem öffentlichen Einsatz mit den tatsächlichen Firmendaten ergänzen und fachlich prüfen lassen.</p>
+
+            <section aria-labelledby="provider-title">
+              <h2 id="provider-title">Anbieter</h2>
+              <address>
+                <strong class="placeholder" data-bind="business.legalName">[Unternehmensname und Rechtsform]</strong><br>
+                Vertreten durch: <span class="placeholder" data-bind="business.owner">[Vor- und Nachname]</span><br>
+                <span class="placeholder" data-bind="business.address.street">[Straße und Hausnummer]</span><br>
+                <span class="placeholder" data-bind="business.address.postalCode">[PLZ]</span>
+                <span class="placeholder" data-bind="business.address.city">[Ort]</span><br>
+                <span data-bind="business.address.country">Deutschland</span>
+              </address>
+            </section>
+
+            <section aria-labelledby="contact-legal-title">
+              <h2 id="contact-legal-title">Kontakt</h2>
+              <p>Telefon: <a href="./#kontakt" data-phone-link aria-disabled="true">01234 567890</a><br>E-Mail: <a href="./#kontakt" data-email-link aria-disabled="true">kontakt@fliese-und-fuge.example</a></p>
+            </section>
+
+            <section aria-labelledby="register-title">
+              <h2 id="register-title">Register- und Steuerangaben</h2>
+              <p>Registerangaben: <span class="placeholder" data-bind="legal.tradeRegister">[Register und Registernummer, falls vorhanden]</span></p>
+              <p>Umsatzsteuer-Identifikationsnummer: <span class="placeholder" data-bind="legal.vatId">[Umsatzsteuer-ID, falls vorhanden]</span></p>
+              <p>Zuständige Aufsichtsbehörde: <span class="placeholder" data-bind="legal.supervisoryAuthority">[Zuständige Aufsichtsbehörde, falls erforderlich]</span></p>
+            </section>
+
+            <section aria-labelledby="editorial-title">
+              <h2 id="editorial-title">Verantwortlich für redaktionelle Inhalte</h2>
+              <p><span class="placeholder" data-bind="legal.responsibleForContent">[Vor- und Nachname, Anschrift]</span></p>
+            </section>
+
+            <section aria-labelledby="dispute-title">
+              <h2 id="dispute-title">Verbraucherstreitbeilegung</h2>
+              <p class="placeholder">[Individuelle Angabe zur Bereitschaft oder Verpflichtung zur Teilnahme an einem Streitbeilegungsverfahren ergänzen.]</p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div class="footer-grid">
+          <div class="footer-brand"><a class="brand" href="./"><span class="brand__mark" aria-hidden="true" data-bind="business.shortName">F&amp;F</span><span class="brand__text"><span class="brand__name" data-bind="business.name">Fliese &amp; Fuge</span><span class="brand__tagline">Fliesen · Fugen · Reparatur</span></span></a><p>Saubere Fliesenarbeiten und Fugensanierung mit persönlicher Abstimmung und klarer Ausführung.</p></div>
+          <div class="footer-column"><h2>Navigation</h2><ul><li><a href="./#leistungen">Leistungen</a></li><li><a href="./#ablauf">Ablauf</a></li><li><a href="./#kontakt">Kontakt</a></li></ul></div>
+          <div class="footer-column"><h2>Rechtliches</h2><ul><li><a href="./impressum.html" aria-current="page">Impressum</a></li><li><a href="./datenschutz.html">Datenschutz</a></li><li><a href="./agb.html">AGB</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><p>© <span data-current-year>2026</span> <span data-bind="business.name">Fliese &amp; Fuge</span></p><p>Statische Website · Keine Cookies · Kein Tracking</p></div>
+      </div>
+    </footer>
+  </body>
+</html>
